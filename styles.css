@@ -1,0 +1,11 @@
+* {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.heading {
+    font-size: 39px;
+    font-weight: bold;
+    color: darkorange;
+    background-color: #f8ddb9;
+    
+}
