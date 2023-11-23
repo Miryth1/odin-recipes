@@ -7,5 +7,31 @@
     font-weight: bold;
     color: darkorange;
     background-color: #f8ddb9;
-    
+    text-align: center;
+}
+
+ul, ol {
+    list-style-position: inside;
+    text-align: left;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0px;
+}
+
+li::before {
+    content: '\2022';
+    color: black;
+    font-size: 20px;
+    margin-right: 5px;
+    padding-bottom: 0px;
+}
+
+
+
+.picture {
+    display: inline-block;
 }
